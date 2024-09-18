@@ -8,6 +8,7 @@ on:
     - '!README.md'
   schedule:
     - cron: '2 2 * * *'
+  workflow_dispatch:
 jobs:
   PicACG-signin:    
     runs-on: ubuntu-latest       
