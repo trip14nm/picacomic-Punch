@@ -6,6 +6,14 @@
 
 ## 使用说明
 
+### 必须检查的仓库设置
+
+1. Settings -> Actions -> General -> Workflow permissions：选择 "Read and write permissions"（以允许 GITHUB_TOKEN push）。
+
+2. 确保仓库没有被 Archived（Settings -> General -> Danger Zone: Archive repository）。<br/><br/><br/>
+
+
+
 
 **1. 点击项目右上角进行fork,然后点击你项目中的Setting,找到Secrets添加一个环境变量。
 <br/>Name : `ACCOUNTS` 
@@ -87,7 +95,6 @@
 # 特别声明
 
 - **本项目依赖于Github Actions运行，不会泄露你的xp**
-- **每两个月需要手动激活Actions,在github关闭Actions之前会发邮件提醒你**
 
 # API
  [picacomic-api](https://github.com/FirmianaMarsili/picacomic-api)
